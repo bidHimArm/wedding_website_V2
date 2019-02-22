@@ -1,0 +1,313 @@
+*{
+  box-sizing: border-box;
+  list-style: none;
+  font-family: 'Abel', sans-serif;
+}
+h1{
+  font-family: 'Amatic SC', cursive;
+  font-size: 4em;
+  color: black;
+  text-align: center;
+} 
+h2{
+  font-family: 'Amatic SC', cursive;
+  font-size: 3em;
+}
+h4{
+  font-family: 'Amatic SC', cursive;
+  font-size: 1.6em;
+}
+section {
+  /* color: #fff; */
+  text-align: center;
+}
+
+div {
+  height: 100%;
+}
+a {
+    color: #3c6382;
+}
+article{
+    width: 80%;
+    margin: 1% auto; 
+    text-align: center;
+    position: sticky;
+}
+#wedding{
+    height: 175px;
+}
+#day1{
+    height: 175px;
+}
+#day2{
+    height: 175px;
+}
+#bottom-info{
+    /* height: 50px; */
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    width: 100%;
+}
+#bottom-info-disk{
+    height: 100px;
+    position: absolute;
+    bottom: 25px;
+    margin-top: 2em;
+    text-align: center;
+    width: 100%;
+}
+#algiers{
+    height: 600px
+}
+#registry{
+    height: 150px;
+}
+article > h2{
+    text-align: center;
+    margin-bottom: 2px;
+}
+article > p{
+    margin-top: 4px;
+}
+nav{
+  width: 50%;
+  min-height: 50px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+}
+.menu{
+  flex-grow: 1;
+  width: 33.33%;
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+  display: flex;
+}
+.menu>h3{
+  margin: auto;
+}
+.menu:hover{
+  background-color: rgba(0,0,0,0.7);
+}
+/*#content > ul > li > article:nth-child(2){
+    margin-top: 5%;
+}*/
+.activities{
+    display: flex;
+}
+.activity-faceA{
+    width: 50%;
+    text-align: right;
+    margin: 10px;
+    padding: -10;
+}
+.activity-faceB{
+    width: 50%;
+    text-align: left;
+    margin: 10px;
+}
+.heightGone-faceA{
+    height: inherit;
+    text-align: right;
+}
+.heightGone-faceA > li{
+    margin-top: 10px;
+}
+.heightGone-faceA > li:nth-child(1){
+    margin-top: inherit;
+}
+.heightGone-faceB{
+    height: inherit;
+    text-align: left;
+}
+.heightGone-faceB > li{
+    margin-top: 10px;
+}
+.heightGone-faceB > li:nth-child(1){
+    margin-top: inherit;
+}
+#poll{
+    margin-top: 550px;
+    width: 100%;
+    height: 175;
+}
+#nameInput, #messageInput{
+    width: 40%;
+}
+#transport{
+    width: 5%;
+}
+.attendance{
+    color: green;
+    opacity: 0;
+    display: inline-block;
+}
+
+audio{ 
+    width: 500px; 
+    display: block;
+    position: relative;
+    align-content: center;  
+}
+
+
+/* Pattern styles */
+.container {
+  display: table;
+  width: 100%;
+}
+
+.left-half-1{
+  background-image: url('/static/pictures/algerian_couple_wedding_EFE5D4.png');
+  background-position: center;
+  position: absolute;
+  left: 0px;
+  width: 50%;
+}
+
+.left-half-2{
+  background-color: #efe4d4;
+  position: absolute;
+  left: 0px;
+  width: 50%;
+}
+
+.right-half {
+  background-color: whitesmoke;
+  position: absolute;
+  right: 0px;
+  width: 50%;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/**
+ *  mod-singular
+ */
+.mod-singular {
+	/* font-family: 'Raleway', sans-serif; */
+	height: 100%;
+	left: 0;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+.mod-singular-section {
+	box-sizing: border-box;
+}
+.mod-singular-section-in {
+	box-sizing: border-box;
+	height: 100%;
+	padding: 10% 40px;
+	text-align: center;
+}
+/* .mod-singular-ttl {
+	font-size: 500%;
+	font-weight: 900;
+	margin-bottom: 50px;
+} */
+.mod-singular-txt {
+	line-height: 1.2;
+	margin: 1.5em 0;
+}
+.mod-singular-pre {
+	background: rgba(0, 0, 0, 0.2);
+	line-height: 1.2;
+	margin: 1.5em auto;
+	padding: 10px;
+	text-align: left;
+	width: 40%;
+}
+.mod-singular-options {
+	border-top: 1px solid #fff;
+	/* font-size: 100%; */
+	margin: 1.5em auto;
+	overflow: hidden;
+	text-align: left;
+	width: 60%;
+}
+.mod-singular-options-name {
+	clear: both;
+	float: left;
+	padding: 1em 0;
+	width: 12em;
+}
+.mod-singular-options-txt {
+	border-bottom: 1px solid #fff;
+	padding: 1em 0 1em 12.5em;
+}
+.mod-singular-pager a {
+	background: #fff;
+	border-radius: 25px;
+	display: inline-block;
+	height: 50px;
+	margin: 0 15px;
+	overflow: hidden;
+	position: relative;
+	text-indent: 100%;
+	white-space: nowrap;
+	width: 50px;
+}
+.mod-singular-pager a:before {
+	border-top: 5px solid #efe4d4;
+	border-left: 5px solid #efe4d4;
+	content: "";
+	display: block;
+	height: 14px;
+	left: 50%;
+	position: absolute;
+	top: 50%;
+	width: 14px;
+}
+.mod-singular-prev:before {
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+	margin: -7px 0 0 -10px;
+}
+.mod-singular-next:before {
+	-webkit-transform: rotate(-135deg);
+	transform: rotate(-135deg);
+	margin: -13px 0 0 -10px;
+}
+
+.mod-nav {
+	margin-top: -90px;
+	position: fixed;
+	right: 20px;
+	top: 50%;
+}
+.mod-nav-item {
+	margin: 20px 0;
+}
+.mod-nav-item a {
+	background: whitesmoke;
+	border-radius: 10px;
+	display: block;
+	height: 15px;
+	overflow: hidden;
+	text-indent: 100%;
+	white-space: nowrap;
+	width: 15px;
+}
+.mod-nav-item a:hover,
+.mod-nav-item a:focus,
+.mod-nav-item.js-singular-active a {
+	background: #efe4d4;
+}
+
+
